@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+$: << 'lib'
+require 'test/test_facade.rb'
+require 'test/test_utils.rb'

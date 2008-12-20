@@ -1,0 +1,238 @@
+body{
+
+background:#FFFFFF;
+
+margin:9px;
+
+font-family: arial, sans;
+
+font-size:62.5%;
+
+color:#666666;
+
+}
+
+
+
+em{
+
+color:#333;
+
+}
+
+
+
+strong{
+
+color:#333;
+
+}
+
+
+
+pre{
+
+background:#F3F3F3;
+
+color:#6C6C6C;
+
+border: #CCCCCC 1px dotted;
+
+}
+
+
+
+A:link{ color:#0066FF; text-decoration:none; }
+
+A:hover{ color:#0066FF; text-decoration:underline; }
+
+A:active{ color:#0066FF; text-decoration:none; }
+
+A:active:hover{ color:#0066FF; text-decoration:underline; }
+
+A:visited{ color:#0066FF; text-decoration:none; }
+
+A:visited:hover{ color:#0066FF; text-decoration:underline; }
+
+
+img{
+
+border: #CCCCCC 1px solid;
+
+}
+
+#title img{
+border:0px;
+}
+
+
+
+table {
+
+border-collapse: collapse;
+
+border: none;
+
+}
+
+
+
+th {
+
+background: #F3F3F3;
+
+color: #6C6C6C;
+
+border: #CCCCCC 1px solid;
+
+text-align: center;
+
+}
+
+
+
+td {
+
+border: #CCCCCC 1px solid;
+
+padding: 4px;
+
+vertical-align: top;
+
+}
+
+ul {
+list-style:none;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: Times;
+font-style:italic;
+font-weight:normal;
+color: #000;
+}
+
+/*****************************
+ *
+ *
+ *
+ * Page blocks
+ *
+ *
+ *
+ * ******************************/
+
+
+
+#wrap{
+
+width:75%;
+
+margin-left:auto;
+
+margin-right:auto;
+
+}
+
+
+#container{
+
+width:75%;
+
+margin-left:160px;
+
+}
+
+
+
+#content{
+
+padding-top:20px;
+
+padding-bottom:20px;
+
+text-align:justify;
+
+font-size:1.2em;
+
+}
+
+#title{
+
+padding-top:30px;
+
+padding-bottom:10px;
+
+margin:0px;
+
+border-bottom:#CCCCCC 1px solid;
+
+text-align:right;
+
+font-size:1.4em;
+
+font-style: italic;
+
+font-family: "Times New Roman", Times, serif;
+
+color:#6C6C6C;
+
+}
+
+#menu{
+	
+font-style: normal;
+
+float: left;
+
+text-align: left;
+
+font-family: arial, sans;
+
+color:#666666;
+
+vertical-align: text-bottom;
+
+}
+
+#picture{
+float:left;
+padding-right:10px;
+padding-bottom:10px;
+}
+
+
+
+#footer{
+clear:both;
+
+text-align:center;
+
+font-size:1em;
+
+height:2em;
+
+margin-top:1px;
+
+padding-top: 1em;
+
+border-top:#CCCCCC 1px solid;
+
+text-transform:lowercase;
+
+}
+
+/*****************************
+ *
+ *
+ *
+ * Class definitions
+ *
+ *
+ *
+ * ******************************/
+ 
+ span.red{
+color: #C82C2D;
+font-style:normal;
+ }

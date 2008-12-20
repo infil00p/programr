@@ -1,0 +1,8 @@
+march 28, 2006
+   * added metacommands for dumping and loading caches during run-time
+     (\d [cache_name], for dumping current cache;
+      \l [cache_name], for loading replacing current cache; 
+      \m [cache_name], for loading but merging with current cache)
+
+march 29, 2006
+   * rewritten critical method get_template in graph_master.rb
